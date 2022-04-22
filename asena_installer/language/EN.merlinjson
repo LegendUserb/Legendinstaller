@@ -1,5 +1,5 @@
 {
-    "__ASENAJSON__": true,
+    "__MERLINJSON__": true,
     "LANGUAGE": "English",
     "LANGCODE": "EN",
     "AUTHOR": "@upp4r",
@@ -13,8 +13,8 @@
             "SUCCESS_STRING": "(✓) Stringsession taken!",
             "CREATING_APP": "(i) Creating application...",
             "SUCCESS_APP": "(✓) Application creation successful!",
-            "DOWNLOADING": "(i) Downloading AsenaUserBot...",
-            "DOWNLOADED": "(✓) AsenaUserBot download successful!",
+            "DOWNLOADING": "(i) Downloading MerlinUserBot...",
+            "DOWNLOADED": "(✓) MerlinUserBot download successful!",
             "DEPLOYING": "(i) Initiating Deploy process... (This Process May Take Long)",
             "WRITING_CONFIG": "(i) Writing data...",
             "SET_LANG": "(✓) Bot is now in {} language!",
