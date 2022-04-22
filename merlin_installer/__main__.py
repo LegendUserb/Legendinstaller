@@ -59,7 +59,7 @@ async def botlog (String, Api, Hash):
     await Client.start()
 
     KanalId = await Client(CreateChannelRequest(
-        title='MerlinUserBot BotLog',
+        title='Merlin\'s BotLog',
         about=LANG['AUTO_BOTLOG'],
         megagroup=True
     ))
@@ -100,7 +100,7 @@ if __name__ == "__main__":
     # Noldu Kendi Reponu Yazamadın Mı? Hadi Başka Kapıya #
     if os.path.isdir("./merlinuserbot/"):
         rm_r("./merlinuserbot/")
-    repo = git.Repo.clone_from("https://github.com/merlinuserb/merlinuserbot", ./merlinuserbot/, branch="master")
+    repo = git.Repo.clone_from("https://github.com/merlinuserb/merlinuserbot", "./merlinuserbot/", branch="master")
     basarili(LANG['DOWNLOADED'])
     onemli(LANG['DEPLOYING'])
     app = hgit(heroku, repo, appname)
