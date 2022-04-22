@@ -1,5 +1,5 @@
 {
-    "__ASENAJSON__": true,
+    "__MERLINJSON__": true,
     "LANGUAGE": "Uzbekcha",
     "LANGCODE": "UZ",
     "AUTHOR": "Yusuf Usta",
@@ -13,8 +13,8 @@
             "SUCCESS_STRING": "(✓) StringSession qabul qilindi!",
             "CREATING_APP": "(i) Dastur yaratilmoqda...",
             "SUCCESS_APP": "(✓) Ilova yaratish muvaffaqiyatli bo'ldi!",
-            "DOWNLOADING": "(i) AsenaUserBot yuklab olinmoqda...",
-            "DOWNLOADED": "(✓) AsenaUserBot-ni yuklab olish muvaffaqiyatli bo'ldi!",
+            "DOWNLOADING": "(i) MerlinUserBot yuklab olinmoqda...",
+            "DOWNLOADED": "(✓) MerlinUserBot-ni yuklab olish muvaffaqiyatli bo'ldi!",
             "DEPLOYING": "(i) Deploy boshlash... (Bu jarayon uzoq davom etishi mumkin)",
             "WRITING_CONFIG": "(i) Ma'lumotlar yozilmoqda...",
             "SET_LANG": "(✓) Bot endi {} tilida!",
