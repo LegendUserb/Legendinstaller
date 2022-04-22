@@ -17,7 +17,7 @@ def soru (soru):
    return console.input(f"[bold yellow]{soru}[/]")
 def logo (dil = "None"):
    surum = str(sys.version_info[0]) + "." + str(sys.version_info[1])
-   console.print(Panel(f"[bold blue]@AsenaUserBot Installer :wolf:[/]\n\n[bold cyan]Version: [/][i]2.1[/]\n[bold cyan]Python: [/][i]{surum}[/]\n[bold cyan]Dil: [/][i]{dil}[/]"), justify="center")                         
+   console.print(Panel(f"[bold blue]🪄 Merlin Qurulum :wolf:[/]\n\n[bold cyan]Version: [/][i]2.1[/]\n[bold cyan]Python: [/][i]{surum}[/]\n[bold cyan]Dil: [/][i]{dil}[/]"), justify="center")                         
 def tamamlandi (saniye):
    console.print(Panel(f"[bold green]Qurulum Tamamlandı!\n[i]Botu {round(saniye)} saniyə ərzində qurdunuz.[/]\n\n[bold green]Bir neçə dəqiqə sonra hər hansı bir söhbəttə .alive yazaraq test edə bilərsiniz. Xeyirli olsun:)[/]"), justify="center")                         
                    
