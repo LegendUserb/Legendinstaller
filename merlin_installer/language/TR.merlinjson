@@ -2,7 +2,7 @@
     "__MERLINJSON__": true,
     "LANGUAGE": "Türkçe",
     "LANGCODE": "TR",
-    "AUTHOR": "Yusuf Usta",
+    "AUTHOR": "Araz",
     "STRINGS": {
         "MAIN": {
             "INVALID_KEY": "(!) API Key yanlış.",
@@ -28,7 +28,7 @@
             "ERROR": "Bir hata gerçekleşti! Hata:",
             "POSTGRE": "(i) PostgreSql Yükleniyor...",
             "SUCCESS_POSTGRE": "(✓) PostgreSql Yüklendi!",
-            "AUTO_BOTLOG": "Bu grup otomatik olarak kurulum sonrası aşamasında @AsenaUserBot ile oluşturulmuştur.",
+            "AUTO_BOTLOG": "Bu grup otomatik olarak kurulum sonrası aşamasında @MerlinUserBot ile oluşturulmuştur.",
             "DONT_LEAVE": "**LÜTFEN BU GRUPTAN AYRILMAYINIZ!**",
             "AFTER_INSTALL": "Kurulum sonrasını başlatmak ister misiniz?",
             "BOTLOG": "BotLog Grubu Oluştur",
