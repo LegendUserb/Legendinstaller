@@ -1,6 +1,6 @@
-heroku3
-telethon
 bs4
+heroku3
+gitpython
 requests
 rich
-gitpython
+telethon
