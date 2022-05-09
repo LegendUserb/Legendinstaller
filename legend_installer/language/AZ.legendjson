@@ -1,5 +1,5 @@
 {
-    "__MERLINJSON__": true,
+    "__LEGENDJSON__": true,
     "LANGUAGE": "Azərbaycanca",
     "LANGCODE": "AZ",
     "AUTHOR": "Senan Oğuz / William Shakespeare",
@@ -13,8 +13,8 @@
             "SUCCESS_STRING": "(✓) StringSession alındı!",
             "CREATING_APP": "(i) Tətbiq yaradılır...",
             "SUCCESS_APP": "(✓) Tətbiq uğurla yaradıldı!",
-            "DOWNLOADING": "(i) MerlinUserBot yüklənir...",
-            "DOWNLOADED": "(✓) MerlinUserBot yüklənməsi uğurla başa çatdı!",
+            "DOWNLOADING": "(i) LegendUserBot yüklənir...",
+            "DOWNLOADED": "(✓) LegendUserBot yüklənməsi uğurla başa çatdı!",
             "DEPLOYING": "(i) Deploy proseduru başlayır... (Bu prosedur çox vaxt apara bilər)",
             "WRITING_CONFIG": "(i) Məlumatlar yazılır...",
             "SET_LANG": "(✓) Botunuz artıq {} dilindədir!",
