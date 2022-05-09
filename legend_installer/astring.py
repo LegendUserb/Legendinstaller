@@ -7,7 +7,7 @@ import asyncio
 import os
 import sys
 import subprocess
-from merlin_installer import hata, bilgi, onemli, soru
+from legend_installer import hata, bilgi, onemli, soru
 
 from telethon import TelegramClient, events, version
 from telethon.errors import SessionPasswordNeededError, PhoneCodeInvalidError, PasswordHashInvalidError, PhoneNumberInvalidError
@@ -165,3 +165,4 @@ def main():
     else:
         hata("(!) Bilinmeyen seçim.")
         exit(1)
+1
