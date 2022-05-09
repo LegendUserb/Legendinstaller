@@ -28,4 +28,4 @@ def importlang ():
     return COUNTRY, LANGUAGE, TZ
 
 COUNTRY, LANGUAGE, TZ = importlang()
-LANG = loads(open(f"./merlin_installer/language/{LANGUAGE}.merlinjson", "r").read())["STRINGS"]
+LANG = loads(open(f"./legend_installer/language/{LANGUAGE}.legendjson", "r").read())["STRINGS"]
