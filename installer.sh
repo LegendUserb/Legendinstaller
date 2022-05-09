@@ -1,5 +1,5 @@
-MESAJ="MerlinUserBot Avto Deploy Quruluma Xoş Gəldiniz"
-MESAJ+="\nTelegram: @MerlinUserBot"
+MESAJ="LegendUserBot Avto Deploy Quruluma Xoş Gəldiniz"
+MESAJ+="\nTelegram: @LegendOT"
 pkg update -y
 clear
 echo -e $MESAJ
@@ -14,13 +14,13 @@ echo -e $MESAJ
 echo "TeleThon Yüklənir"
 pip install telethon
 echo "Repo klonlanır..."
-git clone https://github.com/Merlinuserb/Merlininstaller
+git clone https://github.com/LegendUserb/Legendinstaller
 clear
 echo -e $MESAJ
-cd Merlininstaller
+cd Legendinstaller
 clear
 echo "Bəzi lazımlı dosyalar yüklənir"
 echo -e $MESAJ
 pip install wheel
 pip install -r requirements.txt
-python -m merlin_installer
+python -m legend_installer
