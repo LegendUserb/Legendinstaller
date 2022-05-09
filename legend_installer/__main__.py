@@ -3,7 +3,7 @@ from time import time
 import random
 import requests
 from git import Repo
-from merlin_installer import *
+from legend_installer import *
 from .astring import main
 import os
 from telethon import TelegramClient, functions
@@ -25,7 +25,7 @@ def connect (api):
     return heroku_conn
 
 def createApp (connect):
-    appname = "merlin" + str(time() * 1000)[-4:].replace(".", "") + str(random.randint(0,500))
+    appname = "legend" + str(time() * 1000)[-4:].replace(".", "") + str(random.randint(0,500))
     try:
         connect.create_app(name=appname, stack_id_or_name='container', region_id_or_name="eu")
     except requests.exceptions.HTTPError:
@@ -59,7 +59,7 @@ async def botlog (String, Api, Hash):
     await Client.start()
 
     KanalId = await Client(CreateChannelRequest(
-        title='Merlin\'s BotLog',
+        title='Legend\'s BotLog',
         about=LANG['AUTO_BOTLOG'],
         megagroup=True
     ))
@@ -98,9 +98,9 @@ if __name__ == "__main__":
     onemli(LANG['DOWNLOADING'])
 
     # Noldu Kendi Reponu Yazamadın Mı? Hadi Başka Kapıya #
-    if os.path.isdir("./merlinuserbot/"):
-        rm_r("./merlinuserbot/")
-    repo = Repo.clone_from("https://github.com/merlinuserb/merlinuserbot", "./merlinuserbot/", branch="master")
+    if os.path.isdir("./legenduserbot/"):
+        rm_r("./legenduserbot/")
+    repo = Repo.clone_from("https://github.com/LegendUserb/LegendUserBot", "./legenduserbot/", branch="master")
     basarili(LANG['DOWNLOADED'])
     onemli(LANG['DEPLOYING'])
     app = hgit(heroku, repo, appname)
@@ -117,7 +117,7 @@ if __name__ == "__main__":
     config['CLEAN_WELCOME'] = "True"
     config['CONSOLE_LOGGER_VERBOSE'] = "False"
     config['COUNTRY'] = COUNTRY
-    config['DEFAULT_BIO'] = "@MerlinUserBot"
+    config['DEFAULT_BIO'] = "@LegendOT"
     config['GALERI_SURE'] = "60"
     config['CHROME_DRIVER'] = "/usr/sbin/chromedriver"
     config['GOOGLE_CHROME_BIN'] = "/usr/sbin/chromium"
@@ -131,7 +131,7 @@ if __name__ == "__main__":
     config['TMP_DOWNLOAD_DIRECTORY'] = "./downloads/"
     config['TZ'] = TZ
     config['TZ_NUMBER'] = "1"
-    config['UPSTREAM_REPO_URL'] = "https://github.com/Merlinuserb/MerlinUserBot"
+    config['UPSTREAM_REPO_URL'] = "https://github.com/LegendUserb/LegendUserBot"
     config['WARN_LIMIT'] = "3"
     config['WARN_MODE'] = "gmute"
     config['LANGUAGE'] = LANGUAGE
